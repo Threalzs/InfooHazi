@@ -1,0 +1,150 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  html,
+  body {
+    background-image: linear-gradient(
+      to right,
+      rgb(132, 207, 241),
+      rgb(211, 228, 211)
+    );
+  }
+  h1,
+  h2 {
+    text-align: center;
+    margin: 15px 0px;
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 5px;
+  }
+  #navMenu a {
+    text-decoration: none;
+    color: black;
+  }
+  #focim {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 45px;
+    text-shadow: 2px 2px red;
+  }
+  #tartalom {
+    width: 1200px;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+  }
+  #navMenu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  #navMenu li {
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bolder;
+    margin: 0px 10px;
+    background-color: rgb(132, 207, 241);
+    transition: background-color 300ms ease-in-out;
+  }
+  #navMenu li:hover {
+    background-color: rgb(211, 228, 211);
+  }
+  #ismerteto {
+    margin: 10px 0px;
+    padding: 5px;
+  }
+  p {
+    text-align: justify;
+    margin: 0px 5px;
+    text-indent: 10px;
+  }
+  .kep {
+    width: 250px;
+    float: right;
+    margin-left: 20px;
+    box-shadow: 5px 5px 7px black;
+    border: 1px solid black;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  .kep2 {
+    width: 450px;
+  }
+  table {
+    border: 1px black solid;
+  }
+  
+  th {
+    text-align: center;
+    background-color: rgb(132, 207, 241);
+  }
+  td {
+    border: 1px dotted black;
+    padding: 2px 15px 2px;
+  }
+  
+  .galeria {
+    text-align: center;
+  }
+  .galeriaKep {
+    width: 360px;
+    height: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 10px black;
+    margin: 15px;
+  }
+  footer {
+    background: grey;
+    padding: 5px 30px;
+  }
+  footer ul {
+    list-style-type: none;
+  }
+  footer a {
+    color: blue;
+  }
+    #szoveg1 { border-top: 5px black dotted;
+      border-bottom: 5px black dotted ;
+      border-left: 5px dashed black;
+      border-right: 5px dashed black;
+      
+    }
+    #leiras2 { border: 5px gray inset;
+    }
+    #lairas3 { border: 5px black outset  
+  
+    }
+    #leirascim { text-shadow: 2px 2px 2px red ;
+  
+    }
+    #adatokcim { text-shadow: 2px 2px red ;
+  
+    }
+    #galeriacim { text-shadow: 2px 2px 2px red;
+  
+    }
+    #forrasokcim { text-shadow: 1px 1px darkgreen ;
+  
+    }
+    .dropdown-content {
+        display: none;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        float: right;
+        margin: left 20px 
+    }
+      .dropdown:hover .dropdown-content {
+        display: block;
+    
+      }
+      .desc{
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        text-decoration: underline;
+        text-shadow: 1px 1px 1px red;
+      }
